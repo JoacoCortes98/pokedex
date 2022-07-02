@@ -41,19 +41,110 @@
                 >
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="categorias.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="categorias.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Catergorias
                 </a>
+              </li>
             </ul>
           </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Buscar un Pokemon"
+              aria-label="search"
+            />
+            <button class="btn ms-3 btn-outline-light">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section class="container my-4">
+        <div id="carouselPokemon" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselPokemon"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselPokemon"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselPokemon"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/pikachu.png"
+                class="d-block w-100 imgSliders"
+                alt="foto de pikachu contento saltando"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/tcg-go-teaser-169-es.jpg"
+                class="d-block w-100 imgSliders"
+                alt="Imagen de Pokemon Go"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/poketoon-169-es.png"
+                class="d-block w-100 imgSliders"
+                alt="Imagen de poketoon ver ahora"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselPokemon"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselPokemon"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
     <footer></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/61e90f21fe.js"
       crossorigin="anonymous"
     ></script>
   </body>
