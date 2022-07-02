@@ -7,9 +7,10 @@
     <meta name="author" content="Joaquin Cortes Carbajo" />
     <meta
       name="description"
-      content="Todos los pokemons con todos los detalles"
+      content="Todo lo relacionado al mundo de pokedex"
     />
-    <meta name="keywords" content="pikachu, pokemones, etc" />
+    <meta name="keywords" content="pikachu, pokemon, etc" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,18 +19,38 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <title>Pokedex</title>
+  </head>
   <body>
     <header>
-        <nav>
-
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark colorNav">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">Pokedex</a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-tarjet="#itemsNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="itemsNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-2">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active" aria-current="page"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="categorias.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Catergorias
+                </a>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main>
-        
-    </main>
-    <footer>
-
-    </footer>
+    <main></main>
+    <footer></footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
