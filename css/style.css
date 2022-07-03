@@ -10,3 +10,15 @@
 .colorLupa {
     color: white;
 }
+
+.badgeColorVerde {
+    background: rgb(114, 180, 23);
+}
+
+.badgeColorLila {
+    background: rgb(226, 155, 226);
+}
+
+.badgeFuego {
+    background-color: rgb(255, 128, 0);
+}
