@@ -1,3 +1,4 @@
+
 .colorNav {
     background-color: rgb(212, 32, 32);
 }
@@ -21,4 +22,16 @@
 
 .badgeFuego {
     background-color: rgb(255, 128, 0);
+}
+
+.badgePsiquico {
+    background-color: rgb(245, 93, 115);
+}
+
+.badgeHielo {
+    background-color: rgb(81, 201, 241);
+}
+
+.cardHeader {
+    margin-bottom: 0;
 }
